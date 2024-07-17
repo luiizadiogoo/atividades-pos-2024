@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE imobiliaria [
+    <!ELEMENT imobiliaria (imovel+)>
+    <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+    <!ELEMENT proprietario (nome, (email | telefone)+)>
+    <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+    <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT telefone (#PCDATA)>
+
+    <!ELEMENT descricao (#PCDATA)>
+    <!ELEMENT rua (#PCDATA)>
+    <!ELEMENT bairro (#PCDATA)>
+    <!ELEMENT cidade (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+
+    <!ELEMENT tamanho (#PCDATA)>
+    <!ELEMENT numQuartos (#PCDATA)>
+    <!ELEMENT numBanheiros (#PCDATA)>
+    <!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+    <imovel>
+        <descricao>Apartamento com vista para o mar.</descricao>
+        <proprietario>
+            <nome>Maria Luiza</nome>
+            <email>m.luiza@gmail.com</email>
+            <telefone>12345678</telefone>
+            <telefone>87654321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Roberto Freire</rua>
+            <bairro>Lagoa Nova</bairro>
+            <cidade>Natal</cidade>
+            <numero>123</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>800m²</tamanho>
+            <numQuartos>9</numQuartos>
+            <numBanheiros>10</numBanheiros>
+        </caracteristicas>
+        <valor>1000000000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa ampla em bairro movimentado.</descricao>
+        <proprietario>
+            <nome>Maria Luiza</nome>
+            <telefone>23123424</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Olavo</rua>
+            <bairro>Centro</bairro>
+            <cidade>Rondonia</cidade>
+            <numero>000</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>10m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>750</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa com cozinha enorme</descricao>
+        <proprietario>
+            <nome>Maria Luiza</nome>
+            <email>m.luiza@gmail.com</email>
+            <telefone>378462846</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das aguas</rua>
+            <bairro>Centro</bairro>
+            <cidade>Rio de Jameiro</cidade>
+            <numero>456</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>1000m²</tamanho>
+            <numQuartos>20</numQuartos>
+            <numBanheiros>30</numBanheiros>
+        </caracteristicas>
+        <valor>300000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Chácara.</descricao>
+        <proprietario>
+            <nome>Maria Luiza</nome>
+            <email>m.luiza@gmail.com</email>
+            <telefone>83473849</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua da Paz</rua>
+            <bairro>Caixa D´agua</bairro>
+            <cidade>Campo Grande</cidade>
+            <numero>789</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>250m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>900000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa próximo à UFRN.</descricao>
+        <proprietario>
+            <nome>Maria Luiza</nome>
+            <telefone>84627492</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua da Morada</rua>
+            <bairro>Lagoa Nova</bairro>
+            <cidade>Caico</cidade>
+            <numero>102</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>45m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>50000</valor>
+    </imovel>
+</imobiliaria>
