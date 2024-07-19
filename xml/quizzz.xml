@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="1.0">
+    <disciplina>Sobre a VIDA</disciplina>
+    <professor>
+        <nome>Professor Ciego Dirilo</nome>
+        <matrícula>202121212121</matrícula>
+    </professor>
+    <turma>Turma Info Web</turma>
+    <data>2024-07-05</data>
+    <questões>
+        <questão>
+            <enunciado>Qual é a capital do Brasil?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">New York</alternativa>
+                <alternativa correta="nao">Londrina</alternativa>
+                <alternativa correta="nao">Madrid</alternativa>
+                <alternativa correta="sim">Brasilia</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual é o maior planeta do sistema solar?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Vênus</alternativa>
+                <alternativa correta="nao">Marte</alternativa>
+                <alternativa correta="nao">Terra</alternativa>
+                <alternativa correta="sim">Júpiter</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual palavras é mais falada no Nordeste?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Bitelo</alternativa>
+                <alternativa correta="nao">Ba tche</alternativa>
+                <alternativa correta="nao">UAI</alternativa>
+                <alternativa correta="sim">Abestado</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Quantos estados existem no Brasil?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">55</alternativa>
+                <alternativa correta="nao">76</alternativa>
+                <alternativa correta="nao">77</alternativa>
+                <alternativa correta="sim">26</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual é a fórmula química do alcool?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">CO2</alternativa>
+                <alternativa correta="nao">H2O2</alternativa>
+                <alternativa correta="nao">H2O</alternativa>
+                <alternativa correta="sim">C2H6O</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
