@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio xmlns="http://cardapioweb.org">
+    <prato id="prato1">
+        <nome>Lasanha à Bolonhesa</nome>
+        <descricao>Deliciosa lasanha feita com carne moída e molho bechamel.</descricao>
+        <ingredientes>
+            <ingrediente>massa de lasanha</ingrediente>
+            <ingrediente>carne moída</ingrediente>
+            <ingrediente>molho de tomate</ingrediente>
+            <ingrediente>queijo muçarela</ingrediente>
+            <ingrediente>cebola</ingrediente>
+            <ingrediente>alho</ingrediente>
+        </ingredientes>
+        <preco moeda="USD">29.90</preco>
+        <calorias>600</calorias>
+        <tempoPreparo>45 minutos</tempoPreparo>
+    </prato>
+    <prato id="prato2">
+        <nome>Frango Grelhado</nome>
+        <descricao>Frango marinado e grelhado, servido com legumes.</descricao>
+        <ingredientes>
+            <ingrediente>peito de frango</ingrediente>
+            <ingrediente>azeite</ingrediente>
+            <ingrediente>sal</ingrediente>
+            <ingrediente>pimenta</ingrediente>
+            <ingrediente>legumes variados</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">24.50</preco>
+        <calorias>350</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+    </prato>
+    <prato id="prato3">
+        <nome>Pizza Margherita</nome>
+        <descricao>Pizza clássica com molho de tomate, queijo e manjericão.</descricao>
+        <ingredientes>
+            <ingrediente>massa de pizza</ingrediente>
+            <ingrediente>molho de tomate</ingrediente>
+            <ingrediente>queijo muçarela</ingrediente>
+            <ingrediente>manjericão fresco</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">39.90</preco>
+        <calorias>800</calorias>
+        <tempoPreparo>25 minutos</tempoPreparo>
+    </prato>
+    <prato id="prato4">
+        <nome>Sopa de Legumes</nome>
+        <descricao>Sopa quente e nutritiva, cheia de legumes frescos.</descricao>
+        <ingredientes>
+            <ingrediente>batata</ingrediente>
+            <ingrediente>cenoura</ingrediente>
+            <ingrediente>abobrinha</ingrediente>
+            <ingrediente>cebola</ingrediente>
+            <ingrediente>caldo de galinha</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">18.90</preco>
+        <calorias>150</calorias>
+        <tempoPreparo>40 minutos</tempoPreparo>
+    </prato>
+    <prato id="prato5">
+        <nome>Brownie de Chocolate</nome>
+        <descricao>Delicioso brownie de chocolate com nozes, servido quente.</descricao>
+        <ingredientes>
+            <ingrediente>chocolate meio amargo</ingrediente>
+            <ingrediente>manteiga</ingrediente>
+            <ingrediente>açúcar</ingrediente>
+            <ingrediente>ovos</ingrediente>
+            <ingrediente>farinha de trigo</ingrediente>
+            <ingrediente>nozes</ingrediente>
+        </ingredientes>
+        <preco moeda="USD">12.50</preco>
+        <calorias>300</calorias>
+        <tempoPreparo>35 minutos</tempoPreparo>
+    </prato>
+</cardapio>

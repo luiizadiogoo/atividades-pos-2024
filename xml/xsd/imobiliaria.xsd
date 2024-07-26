@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:p="http://imobiliariaweb.org"
+        targetNamespace="http://imobiliariaweb.org"
+        elementFormDefault="qualified">
+
+  
+</schema>
