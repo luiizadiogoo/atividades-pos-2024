@@ -1,0 +1,15 @@
+<prato xmlns="http://pratosalimenticios.org"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://pratosalimenticios.org prato.xsd">
+
+    <nome>Lasanha</nome>
+    
+    <refeicao>almoco</refeicao>
+    <preco>25.50</preco>
+    <ingredientes>
+        <ingrediente>Macarrão</ingrediente>
+        <ingrediente>Molho</ingrediente>
+        <ingrediente>Carne</ingrediente>
+    </ingredientes>
+    <dataCadastro>2024-07-26</dataCadastro>
+</prato>

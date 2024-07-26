@@ -1,0 +1,48 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:p="http://pratosalimenticios.org"
+        targetNamespace="http://pratosalimenticios.org"
+        elementFormDefault="qualified">
+        <element name="prato">
+            <complexType>
+                <sequence>
+                    <element name="nome">
+                        <simpleType>
+                            <restriction base="string">
+                                <maxLength value="100"></maxLength>
+                            </restriction>
+                        </simpleType>
+                    </element>
+            
+            
+                    <element name="refeicao">
+                        <simpleType>
+                            <restriction base="string">
+                                <pattern value="cafe|almoco|janta"/>
+                            </restriction>
+                        </simpleType>
+                    </element>
+            
+                    <element name="preco">
+                        <simpleType>
+                            <restriction base="decimal">
+                                <fractionDigits value="2"/>
+                            </restriction>
+                        </simpleType>
+                    </element>
+            
+            
+                    <element name="ingredientes">
+                        <complexType>
+                            <sequence>
+                                <element name="ingrediente" type="string" minOccurs="1" maxOccurs="unbounded"/>
+                            </sequence>
+                        </complexType>
+                    </element>
+            
+            
+                    <element name="dataCadastro" type="date"></element>
+                    
+                </sequence>
+            </complexType>
+        </element>
+</schema>
