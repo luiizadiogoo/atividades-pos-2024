@@ -4,5 +4,51 @@
         targetNamespace="http://imobiliariaweb.org"
         elementFormDefault="qualified">
 
+        <complexType name="propietarioType">
+                <sequence>
+                        <element name="nome" type="string"/>
+                        <choice minOccurs="0" maxOccurs="unbounded">
+                                <element name="email" type="string"/>
+                                <element name="email" type="string"/>
+                                <element name="telefone" type="string"/>
+                        </choice>
+                </sequence>
+        </complexType>
   
+        <complexType name="enderecoType">
+                <sequence>
+                        <element name="rua" type="string"/>
+                        <element name="bairro" type="string"/>
+                        <element name="cidade" type="string"/>
+                        <element name="numero" type="integer" minOccurs="0"/>
+                </sequence>
+        </complexType>
+
+        <complexType name="caracteristicasType">
+                <sequence>
+                        <element name="tamanho" type="string"/>
+                        <element name="numQuartos" type="integer"/>
+                        <element name="numBanheiros" type="integer"/>
+                </sequence>
+        </complexType>
+
+        
+        <complexType name="imovelType">
+                <sequence>
+                        <element name="descricao" type="string"/>
+                        <element name="proprietario" type="p:caracteristicasType"/>
+                        <element name="endereco" type="p:enderecoType"/>
+                        <element name="caracteristica" type="p:caracteristicasType"/>
+                        <element name="valor" type="string"/>
+                </sequence>
+        </complexType>
+
+        <element name="imobiliaria">
+                <complexType>
+                        <sequence>
+                                <element name="imovel" type="p:imovelType" minOccurs="1" maxOccurs="unbounded"/>
+                        </sequence>
+                </complexType>
+        </element>
+
 </schema>

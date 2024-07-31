@@ -14,19 +14,23 @@
     </sequence>
   </complexType>
 
-
   <complexType name="PratoType">
     <sequence>
       <element name="nome" type="string"/>
       <element name="descricao" type="string"/>
       <element name="ingredientes" type="p:IngredientesType"/>
-      <!-- <element name="preco" type="decimal"/> (colocar a restrição)-->
+      <element name="preco">
+                <simpleType>
+                    <restriction base="decimal">
+                        <fractionDigits value="2"/>
+                    </restriction>
+                </simpleType>
+      </element>
       <element name="calorias" type="integer"/>
       <element name="tempoPreparo" type="string"/>
     </sequence>
     <attribute name="id" type="integer" use="required"/>
   </complexType>
-
 
   <complexType name="IngredientesType">
     <sequence>
