@@ -1,0 +1,97 @@
+{
+    "cardapio": {
+        "pratos": [
+            {
+                "id": "prato1",
+                "nome": "Lasanha à Bolonhesa",
+                "descricao": "Deliciosa lasanha feita com carne moída e molho bechamel.",
+                "ingredientes": [
+                    "massa de lasanha",
+                    "carne moída",
+                    "molho de tomate",
+                    "queijo muçarela",
+                    "cebola",
+                    "alho"
+                ],
+                "preco": {
+                    "moeda": "USD",
+                    "valor": 29.9
+                },
+                "calorias": 600,
+                "tempoPreparo": "45 minutos"
+            },
+            {
+                "id": "prato2",
+                "nome": "Frango Grelhado",
+                "descricao": "Frango marinado e grelhado, servido com legumes.",
+                "ingredientes": [
+                    "peito de frango",
+                    "azeite",
+                    "sal",
+                    "pimenta",
+                    "legumes variados"
+                ],
+                "preco": {
+                    "moeda": "BRL",
+                    "valor": 24.5
+                },
+                "calorias": 350,
+                "tempoPreparo": "30 minutos"
+            },
+            {
+                "id": "prato3",
+                "nome": "Pizza Margherita",
+                "descricao": "Pizza clássica com molho de tomate, queijo e manjericão.",
+                "ingredientes": [
+                    "massa de pizza",
+                    "molho de tomate",
+                    "queijo muçarela",
+                    "manjericão fresco"
+                ],
+                "preco": {
+                    "moeda": "BRL",
+                    "valor": 39.9
+                },
+                "calorias": 800,
+                "tempoPreparo": "25 minutos"
+            },
+            {
+                "id": "prato4",
+                "nome": "Sopa de Legumes",
+                "descricao": "Sopa quente e nutritiva, cheia de legumes frescos.",
+                "ingredientes": [
+                    "batata",
+                    "cenoura",
+                    "abobrinha",
+                    "cebola",
+                    "caldo de galinha"
+                ],
+                "preco": {
+                    "moeda": "BRL",
+                    "valor": 18.9
+                },
+                "calorias": 150,
+                "tempoPreparo": "40 minutos"
+            },
+            {
+                "id": "prato5",
+                "nome": "Brownie de Chocolate",
+                "descricao": "Delicioso brownie de chocolate com nozes, servido quente.",
+                "ingredientes": [
+                    "chocolate meio amargo",
+                    "manteiga",
+                    "açúcar",
+                    "ovos",
+                    "farinha de trigo",
+                    "nozes"
+                ],
+                "preco": {
+                    "moeda": "USD",
+                    "valor": 12.5
+                },
+                "calorias": 300,
+                "tempoPreparo": "35 minutos"
+            }
+        ]
+    }
+}

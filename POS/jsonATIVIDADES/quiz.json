@@ -1,0 +1,124 @@
+{
+    "quiz": {
+        "versao": "1.0",
+        "disciplina": "Sobre a VIDA",
+        "professor": {
+            "nome": "Professor Ciego Dirilo",
+            "matricula": "202121212121"
+        },
+        "turma": "Turma Info Web",
+        "data": "2024-07-05",
+        "questoes": [
+            {
+                "enunciado": "Qual é a capital do Brasil?",
+                "pontuacao": 1,
+                "alternativas": [
+                    {
+                        "texto": "New York",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Londrina",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Madrid",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Brasilia",
+                        "correta": true
+                    }
+                ]
+            },
+            {
+                "enunciado": "Qual é o maior planeta do sistema solar?",
+                "pontuacao": 1,
+                "alternativas": [
+                    {
+                        "texto": "Vênus",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Marte",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Terra",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Júpiter",
+                        "correta": true
+                    }
+                ]
+            },
+            {
+                "enunciado": "Qual palavras é mais falada no Nordeste?",
+                "pontuacao": 1,
+                "alternativas": [
+                    {
+                        "texto": "Bitelo",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Ba tche",
+                        "correta": false
+                    },
+                    {
+                        "texto": "UAI",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Abestado",
+                        "correta": true
+                    }
+                ]
+            },
+            {
+                "enunciado": "Quantos estados existem no Brasil?",
+                "pontuacao": 1,
+                "alternativas": [
+                    {
+                        "texto": "55",
+                        "correta": false
+                    },
+                    {
+                        "texto": "76",
+                        "correta": false
+                    },
+                    {
+                        "texto": "77",
+                        "correta": false
+                    },
+                    {
+                        "texto": "26",
+                        "correta": true
+                    }
+                ]
+            },
+            {
+                "enunciado": "Qual é a fórmula química do alcool?",
+                "pontuacao": 1,
+                "alternativas": [
+                    {
+                        "texto": "CO2",
+                        "correta": false
+                    },
+                    {
+                        "texto": "H2O2",
+                        "correta": false
+                    },
+                    {
+                        "texto": "H2O",
+                        "correta": false
+                    },
+                    {
+                        "texto": "C2H6O",
+                        "correta": true
+                    }
+                ]
+            }
+        ]
+    }
+}

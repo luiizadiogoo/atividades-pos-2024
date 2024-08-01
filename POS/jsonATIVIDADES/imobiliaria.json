@@ -1,0 +1,131 @@
+{
+    "imobiliaria": {
+        "imoveis": [
+            {
+                "descricao": "Apartamento com vista para o mar.",
+                "proprietario": {
+                    "nome": "Maria Luiza",
+                    "contato": {
+                        "emails": [
+                            "m.luiza@gmail.com"
+                        ],
+                        "telefones": [
+                            "12345678",
+                            "87654321"
+                        ]
+                    }
+                },
+                "endereco": {
+                    "rua": "Avenida Roberto Freire",
+                    "bairro": "Lagoa Nova",
+                    "cidade": "Natal",
+                    "numero": "123"
+                },
+                "caracteristicas": {
+                    "tamanho": "800m²",
+                    "numQuartos": 9,
+                    "numBanheiros": 10
+                },
+                "valor": 1000000000
+            },
+            {
+                "descricao": "Casa ampla em bairro movimentado.",
+                "proprietario": {
+                    "nome": "Maria Luiza",
+                    "contato": {
+                        "telefones": [
+                            "23123424"
+                        ]
+                    }
+                },
+                "endereco": {
+                    "rua": "Rua Olavo",
+                    "bairro": "Centro",
+                    "cidade": "Rondonia",
+                    "numero": "000"
+                },
+                "caracteristicas": {
+                    "tamanho": "10m²",
+                    "numQuartos": 1,
+                    "numBanheiros": 1
+                },
+                "valor": 750
+            },
+            {
+                "descricao": "Casa com cozinha enorme",
+                "proprietario": {
+                    "nome": "Maria Luiza",
+                    "contato": {
+                        "emails": [
+                            "m.luiza@gmail.com"
+                        ],
+                        "telefones": [
+                            "378462846"
+                        ]
+                    }
+                },
+                "endereco": {
+                    "rua": "Rua das aguas",
+                    "bairro": "Centro",
+                    "cidade": "Rio de Jameiro",
+                    "numero": "456"
+                },
+                "caracteristicas": {
+                    "tamanho": "1000m²",
+                    "numQuartos": 20,
+                    "numBanheiros": 30
+                },
+                "valor": 300000
+            },
+            {
+                "descricao": "Chácara.",
+                "proprietario": {
+                    "nome": "Maria Luiza",
+                    "contato": {
+                        "emails": [
+                            "m.luiza@gmail.com"
+                        ],
+                        "telefones": [
+                            "83473849"
+                        ]
+                    }
+                },
+                "endereco": {
+                    "rua": "Rua da Paz",
+                    "bairro": "Caixa D´agua",
+                    "cidade": "Campo Grande",
+                    "numero": "789"
+                },
+                "caracteristicas": {
+                    "tamanho": "250m²",
+                    "numQuartos": 4,
+                    "numBanheiros": 3
+                },
+                "valor": 900000
+            },
+            {
+                "descricao": "Casa próximo à UFRN.",
+                "proprietario": {
+                    "nome": "Maria Luiza",
+                    "contato": {
+                        "telefones": [
+                            "84627492"
+                        ]
+                    }
+                },
+                "endereco": {
+                    "rua": "Rua da Morada",
+                    "bairro": "Lagoa Nova",
+                    "cidade": "Caico",
+                    "numero": "102"
+                },
+                "caracteristicas": {
+                    "tamanho": "45m²",
+                    "numQuartos": 1,
+                    "numBanheiros": 1
+                },
+                "valor": 50000
+            }
+        ]
+    }
+}
