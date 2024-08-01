@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:p="http://quizweb.org"
+        targetNamespace="http://quizweb.org"
+        elementFormDefault="qualified">
+
+        <element name="quiz">
+        <complexType>
+            <sequence>
+                <element name="disciplina" type="string"/>
+                <element name="professor">
+                    <complexType>
+                        <sequence>
+                            <element name="nome" type="string"/>
+                            <element name="matrícula" type="string" minOccurs="0"/>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="turma" type="string"/>
+                <element name="data" type="string"/>
+                <element name="questões">
+                    <complexType>
+                        <sequence>
+                            <element name="questão" maxOccurs="unbounded">
+                                <complexType>
+                                    <sequence>
+                                        <element name="enunciado" type="string"/>
+                                        <element name="pontuação" type="string"/>
+                                        <element name="alternativas">
+                                            <complexType>
+                                                <sequence>
+                                                    <element name="alternativa" maxOccurs="unbounded">
+                                                        <complexType>
+                                                            <simpleContent>
+                                                                <extension base="string">
+                                                                    <attribute name="correta" type="p:correctType" use="required"/>
+                                                                </extension>
+                                                            </simpleContent>
+                                                        </complexType>
+                                                    </element>
+                                                </sequence>
+                                            </complexType>
+                                        </element>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+    
+    <simpleType name="correctType">
+        <restriction base="string">
+            <enumeration value="sim"/>
+            <enumeration value="nao"/>
+        </restriction>
+    </simpleType>
+</schema>
