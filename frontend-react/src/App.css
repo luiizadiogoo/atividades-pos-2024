@@ -1,0 +1,162 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #1db954; /* Cor do Spotify */
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card Styles */
+.card {
+  background-color: #282828;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Input Field */
+input[type="text"] {
+  width: 100%;
+  padding: 12px 18px;
+  margin: 10px 0;
+  border-radius: 50px;
+  border: 1px solid #444;
+  background-color: #121212;
+  color: #e5e5e5;
+  font-size: 1rem;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #1db954;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  border-radius: 50px; /* Borda arredondada similar ao Spotify */
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Add Button */
+button.add-btn {
+  background-color: #1db954; /* Cor verde do Spotify */
+  color: white;
+  box-shadow: 0 4px 10px rgba(29, 185, 84, 0.3); /* Sombra suave */
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+button.add-btn:hover {
+  background-color: #1ed760; /* Cor mais clara para hover */
+  box-shadow: 0 6px 12px rgba(29, 185, 84, 0.4); /* Sombra no hover */
+}
+
+/* Edit Button */
+button.edit-btn {
+  background-color: #ff9f00;
+  color: white;
+  box-shadow: 0 4px 10px rgba(255, 159, 0, 0.3);
+}
+
+button.edit-btn:hover {
+  background-color: #ff8c00;
+  box-shadow: 0 6px 12px rgba(255, 159, 0, 0.4);
+}
+
+/* Delete Button */
+button.delete-btn {
+  background-color: #e63946;
+  color: white;
+  box-shadow: 0 4px 10px rgba(230, 57, 70, 0.3);
+}
+
+button.delete-btn:hover {
+  background-color: #d62828;
+  box-shadow: 0 6px 12px rgba(230, 57, 70, 0.4);
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #333;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #e5e5e5;
+}
+
+/* List item buttons */
+li button {
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  input[type="text"] {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
